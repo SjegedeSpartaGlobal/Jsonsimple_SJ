@@ -10,7 +10,8 @@ public class App
 {
     public static void main( String[] args ) {
 
-        JSONObject userDetails = new JSONObject();
-        System.out.println(userDetails.getClass());
+
+        UserDetails sam = new UserDetails("Sam", 27, "sam@lordSam.com");
+        System.out.println(sam.getUserDetails());
     }
 }
