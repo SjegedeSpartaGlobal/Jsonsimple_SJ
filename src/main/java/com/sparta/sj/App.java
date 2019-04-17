@@ -1,6 +1,4 @@
-package com.sparta.gj;
-
-import org.json.simple.JSONObject;
+package com.sparta.sj;
 
 /**
  * Hello world!
@@ -12,6 +10,6 @@ public class App
 
 
         UserDetails sam = new UserDetails("Sam", 27, "sam@lordSam.com");
-        System.out.println(sam.getUserDetails());
+        System.out.println( sam.getUserDetails().getClass());
     }
 }

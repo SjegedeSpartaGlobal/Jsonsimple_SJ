@@ -1,4 +1,4 @@
-package com.sparta.gj;
+package com.sparta.sj;
 
 import org.json.simple.JSONObject;
 
@@ -21,12 +21,6 @@ public class UserDetails {
 
     public JSONObject getUserDetails() {
         return userDetails;
-    }
-
-    public void setUserDetails(String name, int age, String email) {
-        userDetails.put("name", name);
-        userDetails.put("age", age);
-        userDetails.put("email", email);
     }
 
 
